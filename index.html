@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JS.js"></script>
+</head>
+<body>
+    <span  id="gissadebokstäver"></span>
+    <span  id="gisskvarspan">7/7 Kvar</span>
+    <div id="startSkärm">
+        <p>Hänga gubbe:</p>
+        <button onclick="startvalRand()">Random</button>
+        <button onclick="startvalVälj()">Välj ord</button>
+        <span class="startspan">Regler</span>
+        <span class="startspan">-Bara svenska bokstäver</span>
+        <span class="startspan">-7 Liv</span>
+    </div>
+    <div class="none" id="Div">
+        <canvas id="tavla"></canvas>
+        <p class="none" id="svarvis"></p>
+        <input autofocus maxlength="9" type="text" autocomplete="off" placeholder="Ordet" id="lekordet" autofocus>
+        <button onclick="ordval()" id="knappord">Klar</button>
+        <input autofocus maxlength="9" class="none" autocomplete="off" type="text" id="svarinput">
+        <button class="none" id="svarknapp" onclick="gissning()">Gissa</button>
+        <p class="none" id="vinstp">VINST</p>
+        <p class="none" id="förlustp">FÖRLUST</p>
+        <button class="none" id="igen" onClick="window.location.reload();">Igen?</button>
+        
+
+    </div>
+</body>
+</html>
+
+
+

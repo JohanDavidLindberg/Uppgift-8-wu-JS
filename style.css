@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+
+}
+body{
+    margin: 0;
+    height: 100%;
+    background: cadetblue;
+}
+div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.none {
+    display: none;
+}
+p {
+    font-size: 45px;
+    text-align: center;
+}
+input {
+    width: 400px;
+    height: 100px;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    border: 0;
+}
+
+button {
+    background: rgb(0, 145, 255);
+    border: 2px solid black;
+    width: 400px;
+    height: 100px;
+    font-size: 60px;
+}
+canvas {
+    background: linear-gradient(orange, red);
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.startspan {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#gisskvarspan {
+    display: none;
+    position: absolute;
+    top: 33%;
+    right: 10%;
+    font-size: 120px;
+    
+}
+#gissadebokstäver {
+    display: none;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    font-size: 120px;
+    width: 420px;
+    text-align: center;
+}
+
+#startSkärm{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(orange, red);
+    margin: auto;
+    margin-top: 10%;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50px;
+}
